@@ -1,0 +1,36 @@
+body{
+    background-color: #222; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+ background-color: white;
+width: 300px;
+padding: 30px 15px 15px 15px;
+ border-radius: 8px;
+ text-align: center;
+position: relative;
+}
+
+.card-header{
+background-color: #ff0080;
+color: black;
+font-weight: bold;
+padding: 15px;
+font-size: 16px;
+margin-bottom: 10px;
+position: absolute;
+	width: 80%;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.card-body{
+    font-size: 14px;
+    color: black;
+}
